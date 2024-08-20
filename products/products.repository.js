@@ -1,5 +1,3 @@
-
-
 const {conectionMongoose} = require('../config/connection.mongodb')
 const mongoose = require('mongoose')
 const productSchema = new mongoose.Schema({
@@ -94,6 +92,8 @@ const seleccionarProductos = async () =>{
         }
     }
 }
+
+
 
 
 module.exports = { insertarProducto, seleccionarProductoPorId, deleteProductoPorId, seleccionarProductos}

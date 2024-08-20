@@ -72,4 +72,9 @@ const validarPropiedadesProducto = (producto) => {
 
 
 
+
+
+
+
+
 module.exports = { validarPropiedadesProducto }
